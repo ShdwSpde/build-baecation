@@ -1,1 +1,1 @@
-# chhose-vacation
+# choose-vacation
