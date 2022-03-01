@@ -15,13 +15,12 @@ img{
   margin: 0 auto;
 }
 ul{
-
-  border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
 li{
+  border: 3px solid black;
   width: 94px;
   height: 65px;
 }
