@@ -16,7 +16,7 @@ function baecationNo() {
   document.querySelector('body').style.color = 'white'
 }
 
-function Nm() {
+function baecationNm() {
   document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
   document.querySelector('body').style.color = 'white'
 }
@@ -31,12 +31,12 @@ function baecationAm() {
   document.querySelector('body').style.color = 'white'
 }
 
-function Jm() {
+function baecationJm() {
   document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
   document.querySelector('body').style.color = 'white'
 }
 
-function Se() {
+function baecationSe() {
   document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
   document.querySelector('body').style.color = 'white'
 }
