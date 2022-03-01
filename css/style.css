@@ -30,12 +30,24 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
+#neworleans{
   background: rgba(241,63,247,1);
 }
-#green{
+#italy{
   background: rgba(0,253,81,1);
 }
-#blue{
+#newyork{
   background: rgba(0,254,255);
+}
+#red{
+  background: rgb(255, 0, 0);
+}
+#orange{
+  background: rgb(255, 165, 0);
+}
+#yellow{
+  background: rgb(255, 255, 0);
+}
+#indigo{
+  background: rgb(238, 130, 238);
 }
