@@ -18,6 +18,7 @@ ul{
   margin: 0 auto;
   list-style: none;
   padding: 0;
+  float: left;
 }
 li{
   border: 3px solid black;
