@@ -30,13 +30,13 @@ li{
 /* ADDITIONAL STYLES
 /*******************************************/
 #neworleans{
-  background: rgba(241,63,247,1);
+  background: rgb(238, 130, 238);
 }
 #italy{
-  background: rgba(0,253,81,1);
+  background: rgb(0, 253, 81);
 }
 #newyork{
-  background: rgba(0,254,255);
+  background: rgb(0, 254, 255);
 }
 #amsterdam{
   background: rgb(255, 0, 0);
