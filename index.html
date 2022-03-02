@@ -25,6 +25,75 @@
 			<li id="newyork">New York</li>
 			<li id="newmexico">New Mexico</li>
 		</ul>
+		<script>
+			document.getElementById("newyork").onclick = vacationNy
+			document.getElementById("neworleans").onclick = vacationNo
+			document.getElementById("newmexico").onclick = vacationNm
+			document.getElementById("italy").onclick = vacationIt
+			document.getElementById("jamaica").onclick = vacationJm
+			document.getElementById("amsterdam").onclick = vacationAm
+			document.getElementById("seattle").onclick = vacationSe
+			
+			function playAudio(url) {
+  				new Audio(url).play();
+				}
+
+			function vacationNy() {
+				audio.pause();
+				playAudio("Frank Sinatra - New York, New York..mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/kHZ4AkHEzxH1kRLyTmh3bNNHurRMiPvfiL_ZG3ZC3sOuj7Lf45_ntCtI8UzuED5aHUEiTyYP_blinizdMGCRrLFuxi7g9VonlGZdCnqVpMB7Wsjc7RbOyx60zRQBV4IQtcz63YRpW-NVROgwwBedKtjxhnTMrLFSlCxmLq0WoEAb9p0wFYeXPnXs4e6w1Ax-j6PnjPCeLY0qGmwxdfo88ZPlCVSaefMjOMWJlfSjDYsaZDxX62eLKpmRhZWnuSVoOdlHe6YlrX8TNkgUOc44BohwzK64LXAv9VStGp5Anqm_4uRLle531SDMZWhSFRcDmILPjPaXL47jmf-0r0GEd6xflzqWwOUd46ObBX55i8dDHVcyBdYjywl8GUXQ53jDyifsy4yGhP61l8fVwiJU-jVaWcmQZMGlgAC7Jwq0vcc36cKe7h5YuS2-dhueg4yqgr0YNmn6RHWdh58vm0mtLgnrAl3Ittt4nfZrdf8tW1qPnsXisKuVDRRj7prElFrh17PHCUK9fxaAUyWQtmG1Sfwss8ZnRT85G_l2F-Whh7v2WH35xFMoDwzC4L0nX4Eijz124ORsz6RAzKsqsb6hlbyFIhQwj3QxRLDYJKEqht02XZ0Gug1fkMVQEHTBLJ_i1EZhT-rjBotrlAbUN9VWtBwsYSLPSq-j0ezikhGCZkiTholSIK0gQn0cDwtrnnXP8qDLoSMUycZaKWgP3Z3ceadG=w764-h509-no?authuser=0)"
+  				document.querySelector('body').style.color = 'black'
+ 				document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationNo() {
+				 audio.pause();
+				 playAudio("Louis Armstrong - What A Wonderful World (Original Spoken Intro Version) ABC Records 1967, 1970.mp3")
+ 				 document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/BLb7yHvNJ5mEWvKW-8JpEOcUXG0llYKeYF2___MumVGNKwaY0wndyeTWrm9SusVkE3DpEdt3P2HQ0eDnnvAEZcgdBMuz1QQIJk-4TjHZJHg1YLFXcExvHevWWwJU7wUo6xNTV_fVsls_qVWrVqAlf2IyZmD94AGdi7WCQLgglqxVPjx1ODt8QnyA4NKF21tFO-U8kuAEfPp-o_PRnlE1Kyw8yJhIDN6b-8rp29EqGLUX4hfsMvSBCs_4onGdR1TH02_fEPCC1nZIsuACIsTnklqGjas6v5s14Hw_CZE1TXofgQCU6Z42BsQZtcy0SxMEu6qpIn8eSZdfy98Dn4-xRtGHujwjQfSCTjA3j2oM6erdQP_2iOvJ2_yGrWZtdZlVPyv4WLhOAlMXEqBiG1oKwSngSgRNHwgKueojFZUR-EfSN3Op1f5j_9bzW-1tcJjLqb7U6I6YhZnWnos-wG7tbj-IdB17-RaSHw-8gSFY6ymVNXlTolE4XmyGbrzq39jAH_yjSs-Gjfabruc0UX8Ro7Urn4I_WfeiNmd1K6JqxG_g0sFsm9UvatQr6IxhRYNWDI8NnII5ZrC_bk0TLYYHlWfbDUJTcjRZ73eB55P6yYvlHRp5Jm3RZIC7cpM6RLRgPzdT9UfBvpIo5j3PDkwFI6fbrlflSdwMw8S0_fJp-tuJ0tQlmPufUYCxnHgiCdeBTSYcKx7s2sS9lZfBX6nYtcuYpw=w764-h509-no?authuser=0)"
+ 				 document.querySelector('body').style.color = 'black'
+  				 document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationNm() {
+				audio.pause();
+				playAudio("FKJ & Bas - Risk (Official Music Video).mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/9hSiGjy2s44rJQCtxERUJ9UstaBtAJdCnHg7h7QjUCd-oshyLg5HN9UruJVePwni0rhhoto9txZLx8zee2h2bQvqG0mmHs-GWd5sezHGhwsdDZpRXS3YLVqkL0d5LeCFY64CpkS1T28VPkrD6iKl50ZQpobgbOyNFqjI_WNwbMAUqC5l0IRIBctQtagT-NxohHCd4g9krzvMjiTPhjeiylfkEsTxN73XfCxvgKQA9dJJR6HhV6dnZakJv0yZ8-jpM_8sBxtVcCCqjFoQT2S3YI0XuZtgIO7wtnUbivQaaSo0unKQZNKSsDnM7DqxTa7FIzx-3aJCxjblOeEkk1OkcBBrWtt45GyNXKbonqkNO0awAZBKv5fxuGVqEnsCBXDCm-jiVSz2o-6KG4Fo2kMW8qleDp9BghODrPuunHtG9Fi3GSmua3FgoPwYUufLyQNgUF92Ned8pXod5EumG3fjVoj8yWQVguqD4Sr8K8FPIZ2-lVH7yCNYO5ZlJrDy2KeaXNjVreWQydCyBGBZcixO7sjnO9z9muzFzx8O3xUfRVZJg3E8CPVUAALu03s4DZCeFqq9L7ItBdUa9Ku_xeHwCaERI7037Rr4kdgFwnW55MVuxVFqs4iHX-GoKvr78FwyQPe8Q6RWtf4J5m8D-8QNwGUaKA-X4DbALsoOv4-ZQnvnvBT9uhHBE3_j3t56tBrRCl2R8BhAE2s3fWdJZ8hErE6VsQ=w764-h509-no?authuser=0)"
+  				document.querySelector('body').style.color = 'black'
+  				document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationIt() {
+				audio.pause();
+				playAudio("Dean Martin - That's Amore.mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/kgGwSTEWq9_oKR1E6R_6eUJvAdqrkkVlWxhDgbeIpwCqKII_68-YZTHYvcFjSRErbhIojmPFIvHzHMwryP3_3Ds39VvkXis2dFEHQDoVl5Nm9-g0Vx2Hvp7p7I3tEVrim3EHlVZxyXXCxjRbvYEK_gf_K2iy0pI9zDJ--YbrA3E2Nx74vFAFCZcJ_dwD_rWRuNcTl_0kl_ksJJh5Hlp8QoabzR-Iey48de6Fr0l0mPWF8ezzS1YTIeKQP0M0pali49U_PPv1wzXouS1VikOXyBoqdUdn3bsyUT1ONLAi1W08UzngybiSy_ZAXw5BcdDUHP0T1IG2GcwbZ_m54WyiYeXfcN8YM8Zvt_AnufUWEBIJnmJrnfY5H87IP9b7JMRRmy0AkFIaNrQwMgfnJBpPJ8szGv742bpdfuqPPNlL_tNU9uskV39PTS5n58HfNxAmylZ92bt-yGGfoSMrAM2IkAhMN0VNnZHhKKu2dK3JaCKJOnzQ4VjkGhsQDMvJusgV3bq6dyytfYjOIlDB1YZ7UslyUemMomPEGtEYm4Wl22Sy2v61vk_GjLFYRYAT5c08dlSeqOSSbdldDNK9e3Zs9LWxpTEz7iYoFgqQkbGC3p5hu7P9zwrc-GZ1z4ATwlHw0hAHAKZ9a6iT3RUDesiufiFngDAQ2AHPxY92gxRMWux9dD_jNtMQPZQEDrhW5FILtibRyqk1Q1cPOEJI0EbZqBUfIA=w764-h509-no?authuser=0)"
+  				document.querySelector('body').style.color = 'black'
+  				document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationAm() {
+				audio.pause();
+				playAudio("M.I.A. - Paper Planes.mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/BLOr_uNzBCxAfvQO8U5PRDA0MWprfSgxaU-5fq3Nzsus6GskH_EjE8i3kJS-kp65vq1E3ayI3zW0tl1CtcQPljoUGSTito3pBM6IydXPyy0-FGP9NPbNzX1D-0DqlY94QXzYoXLy0D4U0z8QZUeb5dEAz1sB2LSpfyNOIPII1n8M1ZGFs2JVyJ71Em6TXCPz0Z6zFzvl45xFa-CVKLmPfBQNpf0frqoWEn0mnwUDMr2eEZI_zjQOWslsU7cDhnJZwcP7-8kXhBUDeLdiHtVZZ4Gwkg76pAyetb6kk4DQs2Uw62c9DuTQo96UwCgGuH5D_trda5EoulSogcfrHlQ4sPOGEzWotVE4_cOlcFLoPrhVkcBlqF0zQcI2WAJ5nIRB1SpursqicevkdDA6SRjSyZAT7ga_zY9J8AFr519NaWdHnsN-7TSsNjXjk_wcqwlvQYJ2ow1uM1SF-3E69jZL5ol4Z2qGUX3ujxM2q-NukazSKhYwDFrqHUTxVk1vWCX_wD6sLRMlDkMzs-N-JB05ZwUiFEv0MRkP8B3ekdBRhoMlvT5MS8mktOsDSCioiMtXfUO9jrmMb6sG4GWdjHC9TOvO4Okqa9UyU7rZu-TevcSxDycpgtZDvHt5lC1tc0LtlxvORtbvdfdHhLVpAfH4Me6m-zER7tlaNi42ofeRKhlHex2UwTlWeWo3jN5LIUpIrci_MfEnHUn1UG0H8cayNTC9MA=w764-h509-no?authuser=0)"
+  				document.querySelector('body').style.color = 'black'
+  				document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationJm() {
+				audio.pause();
+				playAudio("Damian Marley - Welcome To Jamrock.mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/jcKuQ984F6EE5IlfN1JQ8YbfMHwP9uc9WgXd0a8Cd3bLYRxXKBSopotCMTXlRSH3y93XLMbn002qpFBx6Gux_L073_G8UUq5E_yMXGkDDlCJt9nC3DmoRLQSLDBuwCOHubbgacvXoi1HiIerxMcA_ufrnYqxm6VYwOk0O77yiPyA5-7GRHY-AgBKGCPjXW8yIDf7wEZxmPXy0_DldpptQWCnAbAd40F8KyLYitsCktBWvBzhI3uegvmCv3O8KwsgO_MCxvDAITzWuQEyup-6U3mT5rKnJwVMiptugZfdIzwGrmZVFqWgUQWjQppbO_O1LmfYdq9oVAulrx1QiTl5mA0ZWZAN8wAkIlukqE10L15rvTNxfYiqRCBa-JphgWwXzjupI7C33o-cmyinsVlW7G5DhRcu3oCy2o1izh4own29qSsyIEIubjk4Rc9lu0gapGTZgSiLeD6K9gnYqswpX1DT8dREXChbM7V1-21mvcqUzWochrnp_Wp2NtVaNHWtAeu7Zmj1lYGws2jl95Wfb1bkQONecjWtZPnBpEY9M72SMSgNbaUhwLHcIPhYOBgPB2RDIXHBqvjPELwBS2S4aRs0upigO8ykPYHQQBlNp6-637jpO8tGR-A8iXAIRRKmuK_Bjf5bpGJLDvSuSfQwJpbT-KZvD63ryPM6jXtG3uh0rg4YYLyDeHNOfqUd9CAA8ujmpc6GMztpuZ4ajKs-I1IBOg=w764-h509-no?authuser=0)"
+				document.querySelector('body').style.color = 'black'
+  				document.querySelector('body').style.fontFamily = "Arial";
+				}
+
+			function vacationSe() {
+				audio.pause();
+				playAudio("Sol - 2020 (Official Video).mp3")
+  				document.querySelector('body').style.backgroundImage = "url(https://lh3.googleusercontent.com/tBfFwcZ9-6RP4bXvBxZ0tgcS9WEeK_f6dtuUpfHUn3BCIEo50AsJyG9UxRazLRkuoE48n54eEQkokZZJbfPVN1LnHe51eBIr8MCnDzlg1K7ORVAPKwNE4n68xz6kHUVpnSJYMXdhQC8_MAmvRrQIRuAgqGwYFC92-zzW62hs1Xg3iyM49OycXOzuPxdeKmZLUsQA0tPzZj0aUzQwMi-v1CAqw7wvG6PHvYcyFqzvmnfQPt4rPIfrrXsWlyMqAk46hSI7sJMiISur8X3qAG8eB7_tXeq3Dbb0kVlmjoNi0nfjk6Cwh9lfgyKASvKRzOQkijT_aJEyviMXJtBuMNQRY8HiXawZWRvh3L3v30IrzKa89fEykriXzHJwOn9WoTaak7Bnr5AwL_soboC-l4BzV5W9ZVEuk5XjYxvAydamP7nYF2uD5D14HxUTeqdjNMurEOZYWcYISTV2gf0qxrFNgJrn3UB8zAwJEFADapxxzeFYTeuPs0T2SWHVJtcqQBsrZOJ-5CsFKJbsio7XBhh1ZsFi5keft1eDqW-cKq0kfnz-q2YQX2bawVgSM4owic8SKBN0VxMULSf7JoBl0voeSjaHzOILIEwVLqj0YCChnP7ecMJBgEkUw32TMzs3P79rTu9-2_nYOYd7gsqm23Yh5_jXdvoNxkYI6A5wUmPoPjJ-HsMIQ_NaYvAuYPq2mHC57Ssju6dH1fFMlm6RaOvfNq127Q=w764-h509-no?authuser=0)"
+  				document.querySelector('body').style.color = 'black'
+  				document.querySelector('body').style.fontFamily = "Arial";
+				}
+		</script>
 		
 	</body>
 </html>
