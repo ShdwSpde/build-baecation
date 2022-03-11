@@ -17,19 +17,19 @@ function vacationNy() {
 	}
 
 function vacationNo() {
-  document.querySelector('body').style.backgroundImage = "url(IMG_7565.CR2.jpg)"
+  document.querySelector('body').style.backgroundImage = "url(../IMG_7565.CR2.jpg)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationNm() {
-  document.querySelector('body').style.backgroundImage = "url(IMG_4777.JPG)"
+  document.querySelector('body').style.backgroundImage = "url(../IMG_4777.JPG)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationIt() {
-  document.querySelector('body').style.backgroundImage = "url(IMG_5873.JPG)"
+  document.querySelector('body').style.backgroundImage = "url(../IMG_5873.JPG)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
@@ -41,13 +41,13 @@ function vacationAm() {
 	}
 
 function vacationJm() {
-  document.querySelector('body').style.backgroundImage = "url(IMG_0417.JPG)"
+  document.querySelector('body').style.backgroundImage = "url(../IMG_0417.JPG)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationSe() {
-  document.querySelector('body').style.backgroundImage = "url(IMG_4886.JPG)"
+  document.querySelector('body').style.backgroundImage = "url(../IMG_4886.JPG)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
