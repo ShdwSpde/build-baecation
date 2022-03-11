@@ -38,34 +38,41 @@ li{
   background: rgb(238, 130, 238);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #italy{
   background: rgb(0, 253, 81);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #newyork{
   background: rgb(0, 254, 255);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #amsterdam{
   background: rgb(255, 0, 0);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #newmexico{
   background: rgb(255, 165, 0);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #jamaica{
   background: rgb(255, 255, 0);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
 #seattle{
   background: rgb(44, 27, 153);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain, cover;
 }
