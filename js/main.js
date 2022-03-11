@@ -17,7 +17,7 @@ function vacationNy() {
 	}
 
 function vacationNo() {
-  document.querySelector('body').style.backgroundImage = "url()"IMG_7565.CR2.jpg
+  document.querySelector('body').style.backgroundImage = "url(IMG_7565.CR2.jpg)"
   document.querySelector('body').style.color = 'black'
   document.querySelector('body').style.fontFamily = "Arial";
 	}
