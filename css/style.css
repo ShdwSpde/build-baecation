@@ -36,22 +36,36 @@ li{
 /*******************************************/
 #neworleans{
   background: rgb(238, 130, 238);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #italy{
   background: rgb(0, 253, 81);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 #newyork{
   background: rgb(0, 254, 255);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 #amsterdam{
   background: rgb(255, 0, 0);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 #newmexico{
   background: rgb(255, 165, 0);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 #jamaica{
   background: rgb(255, 255, 0);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 #seattle{
   background: rgb(44, 27, 153);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
