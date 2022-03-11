@@ -12,43 +12,29 @@ function playAudio(url) {
 
 function vacationNy() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/VmpMksg/IMG-2456.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationNo() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/THjYXKB/IMG-7565-CR2.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationNm() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/xGkt64B/IMG-4777.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationIt() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/6XtFwpq/IMG-5992.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationAm() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/K2sxhrN/20170316-141222-HDR.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationJm() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/RT0bxTL/IMG-7482-CR2.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 
 function vacationSe() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/kBC0Xcd/IMG-4886.jpg)"
-  document.querySelector('body').style.color = 'black'
-  document.querySelector('body').style.fontFamily = "Arial";
 	}
 	
