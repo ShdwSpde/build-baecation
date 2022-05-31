@@ -1,7 +1,3 @@
-/* Box Model Hack */
-*{
-  box-sizing: border-box;
-}
 
 /******************************************
 /* LAYOUT
@@ -36,43 +32,29 @@ li{
 /*******************************************/
 #neworleans{
   background: rgb(238, 130, 238);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+ 
 }
 #italy{
   background: rgb(0, 253, 81);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
 #newyork{
   background: rgb(0, 254, 255);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
 #amsterdam{
   background: rgb(255, 0, 0);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
 #newmexico{
   background: rgb(255, 165, 0);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
 #jamaica{
   background: rgb(255, 255, 0);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
 #seattle{
   background: rgb(44, 27, 153);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%, 50%;
+
 }
