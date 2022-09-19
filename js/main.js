@@ -1,19 +1,19 @@
-document.getElementById("newyork").onclick = vacationNy
-document.getElementById("neworleans").onclick = vacationNo
-document.getElementById("newmexico").onclick = vacationNm
-document.getElementById("italy").onclick = vacationIt
-document.getElementById("jamaica").onclick = vacationJm
-document.getElementById("amsterdam").onclick = vacationAm
-document.getElementById("seattle").onclick = vacationSe
+document.getElementById("newyork").addEventListener('click', vacationNY)
+document.getElementById("neworleans").addEventListener('click', vacationNo)
+document.getElementById("newmexico").addEventListener('click', vacationNm)
+document.getElementById("italy").addEventListener('click', vacationIt)
+document.getElementById("jamaica").addEventListener('click', vacationJm)
+document.getElementById("amsterdam").addEventListener('click', vacationAm)
+document.getElementById("seattle").addEventListener('click', vacationNY)
 			
-function playAudio(url) {
-  new Audio(url).play();
+function playAudio('audio_file.mp3') {
+  new Audio('audio_file.mp3').play();
 	}
 
 function vacationNy() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/VmpMksg/IMG-2456.jpg)"
+	playAudio('Damian Marley - Welcome To Jamrock.mp3')
 	}
-
 function vacationNo() {
   document.querySelector('body').style.backgroundImage = "url(https://i.ibb.co/THjYXKB/IMG-7565-CR2.jpg)"
 	}
